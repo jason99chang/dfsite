@@ -7,7 +7,7 @@
 
     <style>
 	    html {
-	   background-color: #f3ebff;
+	   		background-color: #FFF;
 			color: black;
 	    }
 	    
@@ -22,8 +22,6 @@
     		color: black;
     		text-decoration: none;
     	}
-
-
     	#maincontent {
 	    	max-width:42em;
 	    	margin:15 auto;
@@ -40,7 +38,7 @@
     		width: 100vw;
     		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('https://images.unsplash.com/photo-1460574283810-2aab119d8511?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     	/*	background-image:url("https://images.unsplash.com/photo-1479292889369-1a48f234247e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
-    		background-size:cover;
+    		background-size: cover;
     		background-position: center;
     	}
     	
@@ -49,8 +47,8 @@
 	    	vertical-align: middle;
 	    	max-width:14em;
 	    	border-radius: 12px;
-	    	background-color: #FFF;
-	    	/*background-color: #f2f2f2;*/
+	    /*	background-color: #FFF;*/
+	    	background-color: #f2f2f2;
 	    	margin: 14px auto;
 	    	padding: 12px;
     	}
@@ -73,7 +71,7 @@
     	}
 
     	#hero-slideshow{
-    		margin-top: 360px;
+    		margin-top: 52vh;
     		width:100vw;
     		height: 30vh;
     		display: flex;
@@ -84,50 +82,106 @@
     		text-align: center;
 	    	width: 25%;
 	    	min-height: 10em;
-	    	border-radius: 12px;
-	    	background-color: #FFF;
+	    	border-radius: 6px;
 	    	/*background-color: #f2f2f2;*/
 	    	margin:32px;
 	    	padding: 10px;
+	    	background-color: #f2f2f2; 
+	    	opacity: 1;
     	}
     	#work-section {
     		padding-bottom: 5em;
+    	}
+    	#menu {
+	    	background-color: red;
+	    	display: block;
+	    	justify-content: space-between;
+	    	width:100vw;
+	    	height: 6vh;
+	    	list-style-tope: none;
+	    	margin: 0;
+	    	padding: 0;
+    	}
+    	.topnav {
+    		display: flex;
+    		min-width: 98wv;
+    		justify-content: space-around;
+    	  	padding: 8px;
+    	 	margin-top: 2em;
+    	  	overflow: hidden;
+    	}
+    	
+    	/* Style the links inside the navigation bar */
+    	.topnav a {
+    	  float: left;
+    	  color: #f2f2f2;
+    	  text-align: center;
+    	  padding: 14px 16px;
+    	  text-decoration: none;
+    	  font-size: 17px;
+    	}
+    	
+    	/* Change the color of links on hover */
+    	.topnav a:hover {
+    	  background-color: #e6e6e6;
+    	  border-radius: 1px;
+    	  color: white;
+    	}
+    	
+    	/* Add a color to the active/current link */
+    	.topnav a.active {
+    	  border: 2px solid white;
+    	  color: white;
     	}
     </style>	
   </head>
 <body>
 	<div id="hero-section"> 
-		<h2 id="nav-logo">Digital_Form</h2>
+	 <div class="topnav">
+  		<a class="active" href="#home">Digital_Form</a>
+  <!-- <a href="#news">News</a> -->
+  		<a href="#contact" style="hover:text-decoration:underline">Contact</a>
+  <!-- <a href="#about">About</a> -->
+	</div> 
 	<center> 
-		<p style="margin-top: 40vh; margin-bottom: 20vh; font-size: 28px; width:30em; font-weight: 500;">Bridging the gap between traditional business practices and modern digital solutions.</p>
+		<p style="margin-top: 16vh; margin-bottom: 20vh; font-size: 28px; width:30em; font-weight: 500; color: #403f3f">Bridging the gap between traditional business practices and modern digital solutions.</p>
 		<!-- <p style="width:45em; padding-top:24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
-		<div id="hero-slideshow">
-			<div id="hero-card">
-				<h4>DevSecOps Services</h4>
+			<div id="hero-slideshow">
+				<div id="hero-card">
+					<h4 style="color:#403f3f; opacity: 1; font-size: 18px">Website Landing Pages</h4>
+					<p>Need a quick landing page for your project or business?</p>
+					<p>Get a professional and custom landing page delivered to you within 24 hours!</p>
+					<a href=""stlye="border: 2px solid black">Learn More</a>
+				</div>
+				<div id="hero-card">
+					<h4 style="color:#403f3f; opacity: 1">Website Design and Hosting Services</h4>
+					<p>Looking for help setting up your business website? We got you covered.</p>
+					<p>Work with our team to get exactly what your business needs in order to deliver the most value to your customers.</p>
+					<a href=""stlye="border: 2px solid black">Learn More</a>
+				</div>
+				<div id="hero-card">
+					<h4 style="color:#403f3f; opacity: 1">Digital Advertisements</h4>
+					<p>Need help creating more lead generation? Our team are experts in leveraging technology and social media to find and reach as many potential customers as possible.</p>
+					<p>Get started with your own custom tailored lead generation consultations.</p>
+					<a href="">Learn More</a>
+				</div>
 			</div>
-			<div id="hero-card">
-				<h4>Website Design and Hosting Services</h4>
-			</div>
-			<div id="hero-card">
-				<h4>Software Developement</h4>
-			</div>
-		</div>
 		</center>
 	</div>
-	<div id="maincontent" style="margin-top:140px">
+	<div id="maincontent" style="margin-top:200px">
 	 	<!--<h3><a href="#works">Works </a> / <a href="#works">Contact</a></h3>-->
 	 	<p><b>The digital age is upon us.</b></p> 
 		<!-- <p> As the world evolves rapidly, it’s crucial for businesses to adapt and thrive in the digital age.</p> -->
-		<p>It is now more important than ever for traditional businesses to adapt with the quickly evolving world. We help businesses transition from a traditional business into a technology empowered business.</p> 
+		<p>It is now more important than ever for traditional businesses to adapt with the quickly evolving world. Digital_Form is your one-stop shop for small to medium-sized businesses seeking expert craftsmanship in digital products. We help businesses transition from a traditional business into a technology empowered business.</p> 
 		<!-- <p>We are called<b> Digital_Form</b>.</p> -->
 		<!-- <p>Our mission is to make technology accessible and empowering for everyone. We are dedicated to helping empowering businesses, ensuring they remain competitive and innovative.</p> -->
-	 	<p>At Digital_Form, we tackle design projects and technical solutions with three core principles:</p> 
+	 	<p>Our three core principles:</p> 
 		<div id="card"><p>Deep Partnerships</p></div> 
 		<div id="card"><p>Cutting Edge Technologies</p></div> 
 	  	<div id="card"><p>Quality Products</p></div> 
-	  	<p style="padding-top: 48px;">Digital_Form is your one-stop shop for small to medium-sized businesses seeking expert craftsmanship in digital products. From web design to hosting and beyond, we provide comprehensive solutions tailored to enhance your business's digital presence.</p>
+	  	<p style="padding-top: 64px;"> From web design to hosting and beyond, we provide comprehensive solutions tailored to enhance your business's digital presence.</p>
 	  	<p>Interested in transforming your business with our expertise? We invite you to join our partnership waiting list.</p> 
-	  	<p>Apply now.</p>
+	  	<a href="/contact">Apply now.</a> 
 	  	<br><br> 
 	  	<!-- <p>Jason @ Digital_Form</p> -->
 	  	<!-- <p>2024</p>  -->
@@ -136,13 +190,11 @@
 	  	<h2>Our Works</h2> 
 	  	<ul> 
 			<li>
-			<h3><a href="https://www.heavymetalbarbell-hawaii.com">Heavy Metal Barbell Co</a><p style="font-size:12px; color: grey;font-weight:400">[website project]</p></h3>
+			<h3><a href="https://www.heavymetalbarbell-hawaii.com">Heavy Metal Barbell Co</a><p style="font-size:12px; color: grey; font-weight:400">[website project]</p></h3>
 				<p>Heavy Metal Barbell Co is an exercise and fitness equipment store in Honolulu, Hawaii.</p> 
 		 	</li> 
 	    </ul> 
-		<br> 
 		</div>
-		<div style="padding: 24px"> </div>
 	      <a href="/">Contact</a> 
 	     </div>
   <div id="footer">
